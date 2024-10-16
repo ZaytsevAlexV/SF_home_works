@@ -1,0 +1,16 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+<h1>Удаление</h1>
+
+{% if posts.type == 'N' %}
+    <hr>
+    <form action="" method="post">
+        {% csrf_token %}
+        <p>Удаляем "{{ posts }}"?</p>
+        <input type="submit" value="Delete" />
+    </form>
+{% else %}
+    <h1>Выбрана не новость! Удалить не можем. </h1>
+{% endif %}
+{% endblock content %}

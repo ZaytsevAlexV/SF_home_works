@@ -1,0 +1,14 @@
+<!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
+{% extends 'flatpages/default.html' %}
+{% load custom_filters %}
+<!-- Название у нас будет products -->
+{% block title %}
+Одна новость
+{% endblock title %}
+
+<!-- В контенте только одна новость -->
+{% block content %}
+<h1> Заголовок: {{ one_news.title|censor }}</h1>
+<h1> Дата: {{ one_news.date|date:'d m y' }}</h1>
+<i> полный текст статьи:  {{ one_news.text|censor }}</i>
+{% endblock content %}
