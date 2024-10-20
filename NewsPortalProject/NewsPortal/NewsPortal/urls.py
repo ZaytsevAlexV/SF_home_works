@@ -19,6 +19,9 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('pages/', include('django.contrib.flatpages.urls')),
+    # path('accounts/', include('django.contrib.auth.urls')),
+    # path("accounts/", include("accounts.urls")),  # Добавили эту строчку при добавлении пользователя локально, через дженерик
+    path("accounts/", include("allauth.urls")), # Оставили только для пакета allauth
+    #path('pages/', include('django.contrib.flatpages.urls')),
     path('posts/', include('news.urls'))
 ]

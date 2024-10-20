@@ -1,9 +1,10 @@
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
+#from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.mixins import PermissionRequiredMixin
 from .models import Post
 from .filters import NewsFilter
 from .forms import NewsForm
-
 class NewsList(ListView):
     # Указываем модель, объекты которой мы будем выводить
     model = Post
@@ -56,7 +57,9 @@ class NewsDetail(DetailView):
     # Название объекта, в котором будет выбранный пользователем новость
     context_object_name = 'one_news'
 
-class ArticleCreate(CreateView):
+class ArticleCreate( PermissionRequiredMixin,CreateView):
+    #raise_exception = True
+    permission_required = ('news.add_post',)
     form_class = NewsForm
     model = Post
     template_name = 'article_create.html'
@@ -66,7 +69,8 @@ class ArticleCreate(CreateView):
         Post.type = 'A'
         return super().form_valid(form)
 
-class ArticleEdit(UpdateView):
+class ArticleEdit(PermissionRequiredMixin,UpdateView):
+    permission_required = ('news.change_post',)
     form_class = NewsForm
     model = Post
     template_name = 'article_edit.html'
@@ -77,13 +81,15 @@ class ArticleEdit(UpdateView):
         return super().form_valid(form)
 
 # Представление удаляющее товар.
-class ArticleDelete(DeleteView):
+class ArticleDelete(PermissionRequiredMixin, DeleteView):
+    permission_required = ('news.delete_post',)
     model = Post
     context_object_name = "posts"
     template_name = 'article_delete.html'
     success_url = reverse_lazy('news_list')
 
-class NewsCreate(CreateView):
+class NewsCreate(PermissionRequiredMixin, CreateView):
+    permission_required = ('news.add_post',)
     form_class = NewsForm
     model = Post
     template_name = 'news_create.html'
@@ -93,7 +99,8 @@ class NewsCreate(CreateView):
         Post.type = 'N'
         return super().form_valid(form)
 
-class NewsEdit(UpdateView):
+class NewsEdit(PermissionRequiredMixin, UpdateView):
+    permission_required = ('news.change_post',)
     form_class = NewsForm
     model = Post
     template_name = 'news_edit.html'
@@ -104,7 +111,8 @@ class NewsEdit(UpdateView):
         return super().form_valid(form)
 
 # Представление удаляющее товар.
-class NewsDelete(DeleteView):
+class NewsDelete(PermissionRequiredMixin, DeleteView):
+    permission_required = ('news.delete_post',)
     model = Post
     context_object_name = "posts"
     template_name = 'news_delete.html'
