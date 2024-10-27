@@ -1,6 +1,9 @@
 from django.db import models
 from django.contrib.auth import models as auth_models
 from django.urls import reverse
+from django.contrib.auth.models import User
+from django.core.validators import MinValueValidator
+
 
 # Модель Author
 class Author(models.Model):
@@ -94,3 +97,7 @@ class Comment(models.Model):
     def dislike(self):
         self.rating -= 1
         self.save()
+
+class Subscriber(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)

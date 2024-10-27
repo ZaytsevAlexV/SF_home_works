@@ -48,9 +48,12 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'allauth.socialaccount.providers.yandex',
+
+    "django_apscheduler",
 ]
 
 SITE_ID = 1
+SITE_URL = "http://127.0.0.1:8000"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -129,16 +132,17 @@ ACCOUNT_EMAIL_REQUIRED = True
 ACCOUNT_UNIQUE_EMAIL = True
 ACCOUNT_USERNAME_REQUIRED = False
 ACCOUNT_AUTHENTICATION_METHOD = 'email'
-ACCOUNT_EMAIL_VERIFICATION = 'none'
-
+ACCOUNT_EMAIL_VERIFICATION = 'optional'
+ACCOUNT_CONFIRM_EMAIL_ON_GET = True
 ACCOUNT_FORMS = {"signup": "accounts.forms.CustomSignupForm"}
+
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Europe/Kirov'
 
 USE_I18N = True
 
@@ -158,3 +162,26 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
+
+
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend' #- не бой  'django.core.mail.backends.smtp.EmailBackend'# - бой(smtp)
+EMAIL_PORT = 465
+EMAIL_HOST_USER = 'sf-test-zav@yandex.ru'
+EMAIL_HOST_PASSWORD = 'zwtdxbiiroqdhsfo'
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+
+DEFAULT_FROM_EMAIL = 'sf-test-zav@yandex.ru'
+
+SERVER_EMAIL = 'sf-test-zav@yandex.ru'
+MANAGERS = (
+    ('Саша_Манагер', 'zav-2005@yandex.ru'),
+
+)
+
+ADMINS = (
+    ('Саша_Админ', 'zav-2005@yandex.ru'),
+)
+
+EMAIL_SUBJECT_PREFIX = 'Zytsev_Shop_test: '
