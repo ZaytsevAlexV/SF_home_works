@@ -185,3 +185,12 @@ ADMINS = (
 )
 
 EMAIL_SUBJECT_PREFIX = 'Zytsev_Shop_test: '
+
+# подключение celery, его настройки.
+# похорошему надо не показывать строки в открытом виде и не передовать, не безопасно, для тестового примера норм.
+
+CELERY_BROKER_URL = 'redis://default:6wPbWLdr2ReljQ0PDjze2hexWmoojr09@redis-15302.c92.us-east-1-3.ec2.redns.redis-cloud.com:15302'
+CELERY_RESULT_BACKEND = 'redis://default:6wPbWLdr2ReljQ0PDjze2hexWmoojr09@redis-15302.c92.us-east-1-3.ec2.redns.redis-cloud.com:15302'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'

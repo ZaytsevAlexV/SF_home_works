@@ -11,7 +11,8 @@ from django.db.models import Exists, OuterRef
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_protect
 
-
+#задачи celery
+from .tasks import new_post_email
 
 class NewsList(ListView):
     # Указываем модель, объекты которой мы будем выводить
@@ -156,3 +157,6 @@ def subscriptions(request):
         'subscriptions.html',
         {'categories': categories_with_subscriptions},
     )
+
+
+

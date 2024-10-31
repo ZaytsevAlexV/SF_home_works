@@ -1,9 +1,10 @@
 from django.contrib.auth.models import User
 from django.core.mail import EmailMultiAlternatives
-from django.db.models.signals import m2m_changed
+from django.db.models.signals import m2m_changed, post_save
 from django.dispatch import receiver
+from .tasks import new_post_email
 
-from .models import PostCategory, Subscriber
+from .models import PostCategory, Post ,  Subscriber
 
 
 @receiver(m2m_changed, sender=PostCategory)
@@ -30,3 +31,11 @@ def post_created(instance, **kwargs):
             msg = EmailMultiAlternatives(subject, text_content, None, [email])
             msg.attach_alternative(html_content, "text/html")
             msg.send()
+
+@receiver(post_save, sender=Post)
+def post_created(instance, created, **kwargs):
+    if not created:
+        return
+    # Постановка задачи на асинхроную отправка письма через 10 сек подписчикам.celery
+    new_post_email.apply_async([instance.pk], countdown=10)
+
