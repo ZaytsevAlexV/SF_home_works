@@ -1,0 +1,9 @@
+2024-12-15 13:33:59,204 INFO autoreload Watching for file changes with StatReloader
+2024-12-15 13:34:04,062 WARNING MyMiddleware Предупреждение безопасности
+2024-12-15 13:34:04,079 INFO MyMiddleware Уровень информирования-info
+2024-12-15 13:34:04,079 WARNING MyMiddleware Уровень Предупреждения-warning
+2024-12-15 13:34:04,080 ERROR MyMiddleware Уровень ошибки-error
+2024-12-15 13:34:04,154 CRITICAL MyMiddleware Уровень критичной ошибки-critical
+2024-12-15 13:34:04,186 WARNING log Not Found: /
+2024-12-15 13:34:04,186 WARNING basehttp "GET / HTTP/1.1" 404 2278
+2024-12-15 13:36:47,832 INFO autoreload D:\MyExamplePython\NewsPortalProject\NewsPortal\NewsPortal\settings.py changed, reloading.

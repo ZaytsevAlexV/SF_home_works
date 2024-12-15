@@ -1,0 +1,3542 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-10-05T19:43:22.769Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-10-05T19:44:10.596Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-10-05T19:45:29.558Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Template name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-10-05T19:50:52.145Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Template name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-10-05T19:51:14.034Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Template name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-10-05T19:51:18.760Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-10-05T19:54:51.408Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-10-05T19:59:36.931Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-10-05T19:59:58.740Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "/about/ -- nbnk",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-10-05T20:00:32.304Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "/page1/ -- page1",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-10-05T20:07:33.355Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "/page1/ -- page1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-10-05T20:09:09.726Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "/about/ -- Привет",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-10-20T13:36:10.098Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "127.0.0.",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-10-20T13:36:16.201Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "127.0.0.1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-10-20T13:46:02.834Z",
+    "user": 1,
+    "content_type": 17,
+    "object_id": "1",
+    "object_repr": "Yandex",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-10-20T14:22:24.159Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "authors",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-10-20T14:22:53.789Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "user_common",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-10-20T14:26:05.347Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "sadmin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-10-20T14:26:19.559Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "test_user1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-10-20T14:47:36.199Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "user_common",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-10-20T14:53:48.978Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "user_common",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-10-20T14:56:44.600Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "user_common",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-10-20T14:57:00.394Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "2",
+    "object_repr": "user_common",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-10-20T15:03:24.188Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "authors",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-10-20T15:06:17.011Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "author1",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-10-25T16:51:27.284Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "zav-2005",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-10-25T16:57:08.158Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "9",
+    "object_repr": "zav-2005",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-10-25T17:04:50.841Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "zav-2005",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-10-25T17:09:35.059Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "zav-2005",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-10-26T08:02:23.362Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "zav-2005",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2024-10-26T16:53:01.693Z",
+    "user": 1,
+    "content_type": 21,
+    "object_id": "my_job",
+    "object_repr": "my_job (next run at: Nov. 1, 2024, 6:00 p.m.)",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2024-10-26T19:08:31.915Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "51",
+    "object_repr": "dfffffffffffffffffffffffffffffffffffffff: 11111111111111111111",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 7,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 7,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 7,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 7,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add flat page",
+    "content_type": 8,
+    "codename": "add_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change flat page",
+    "content_type": 8,
+    "codename": "change_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete flat page",
+    "content_type": 8,
+    "codename": "delete_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view flat page",
+    "content_type": 8,
+    "codename": "view_flatpage"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 9,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 9,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 9,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 9,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add author",
+    "content_type": 10,
+    "codename": "add_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change author",
+    "content_type": 10,
+    "codename": "change_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete author",
+    "content_type": 10,
+    "codename": "delete_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view author",
+    "content_type": 10,
+    "codename": "view_author"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 11,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 11,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 11,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 11,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add post category",
+    "content_type": 12,
+    "codename": "add_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change post category",
+    "content_type": 12,
+    "codename": "change_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete post category",
+    "content_type": 12,
+    "codename": "delete_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view post category",
+    "content_type": 12,
+    "codename": "view_postcategory"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 13,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 13,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 13,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 13,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can add email address",
+    "content_type": 14,
+    "codename": "add_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can change email address",
+    "content_type": 14,
+    "codename": "change_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can delete email address",
+    "content_type": 14,
+    "codename": "delete_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can view email address",
+    "content_type": 14,
+    "codename": "view_emailaddress"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add email confirmation",
+    "content_type": 15,
+    "codename": "add_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change email confirmation",
+    "content_type": 15,
+    "codename": "change_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete email confirmation",
+    "content_type": 15,
+    "codename": "delete_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view email confirmation",
+    "content_type": 15,
+    "codename": "view_emailconfirmation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add social account",
+    "content_type": 16,
+    "codename": "add_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change social account",
+    "content_type": 16,
+    "codename": "change_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete social account",
+    "content_type": 16,
+    "codename": "delete_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view social account",
+    "content_type": 16,
+    "codename": "view_socialaccount"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add social application",
+    "content_type": 17,
+    "codename": "add_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change social application",
+    "content_type": 17,
+    "codename": "change_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete social application",
+    "content_type": 17,
+    "codename": "delete_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view social application",
+    "content_type": 17,
+    "codename": "view_socialapp"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add social application token",
+    "content_type": 18,
+    "codename": "add_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change social application token",
+    "content_type": 18,
+    "codename": "change_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete social application token",
+    "content_type": 18,
+    "codename": "delete_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view social application token",
+    "content_type": 18,
+    "codename": "view_socialtoken"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add subscription",
+    "content_type": 19,
+    "codename": "add_subscription"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change subscription",
+    "content_type": 19,
+    "codename": "change_subscription"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete subscription",
+    "content_type": 19,
+    "codename": "delete_subscription"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view subscription",
+    "content_type": 19,
+    "codename": "view_subscription"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can add subscriber",
+    "content_type": 20,
+    "codename": "add_subscriber"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can change subscriber",
+    "content_type": 20,
+    "codename": "change_subscriber"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete subscriber",
+    "content_type": 20,
+    "codename": "delete_subscriber"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can view subscriber",
+    "content_type": 20,
+    "codename": "view_subscriber"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can add django job",
+    "content_type": 21,
+    "codename": "add_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can change django job",
+    "content_type": 21,
+    "codename": "change_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can delete django job",
+    "content_type": 21,
+    "codename": "delete_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view django job",
+    "content_type": 21,
+    "codename": "view_djangojob"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add django job execution",
+    "content_type": 22,
+    "codename": "add_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can change django job execution",
+    "content_type": 22,
+    "codename": "change_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can delete django job execution",
+    "content_type": 22,
+    "codename": "delete_djangojobexecution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can view django job execution",
+    "content_type": 22,
+    "codename": "view_djangojobexecution"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "authors",
+    "permissions": [
+      41,
+      42,
+      43,
+      45,
+      46,
+      47
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "user_common",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$T7YaiKU6Vrc7g4aVXTgO7M$YyEx2Xpda5vuo2EZVss6MoZ3oWivoOqL/KlnYsd9/tY=",
+    "last_login": "2024-10-26T16:43:17.794Z",
+    "is_superuser": true,
+    "username": "sadmin",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-10-05T19:19:37Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "!f8BqReP6VAuKciSFSJnXBTIldslpftfHwi6rk03s",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Пушкин",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-05T20:35:10.446Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "!ryXaTxo7XQklrtPvp2SgLkwoKnZkF1qqilJl7WEI",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "Гоголь",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-05T20:35:15.855Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$vL2DuBbtIm80Li9geV6Wpm$TaaSIHTUA1oYuIKO78c2Gf6rl7bS5viAc9ZiryTM2eo=",
+    "last_login": "2024-10-20T12:47:42.816Z",
+    "is_superuser": false,
+    "username": "Zaytsev_av",
+    "first_name": "Alex",
+    "last_name": "Zaytsev",
+    "email": "zav@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-20T12:46:55.796Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$jlIX918iGg1dM4gKBW9027$eNfkxCL3zP+acuCFpemRXpecZpc1RTPhkRGEdiASVQY=",
+    "last_login": "2024-10-20T14:20:07Z",
+    "is_superuser": false,
+    "username": "test_user1",
+    "first_name": "",
+    "last_name": "",
+    "email": "test_user1@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-20T14:20:07Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 7,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$lNz4RwQo1nxqcdWJ8tTCnG$6zkGXgTDEF+rSXaVwMRjWD/Q5gCjoqgSAkOBw+nwqvc=",
+    "last_login": "2024-10-20T14:58:02.736Z",
+    "is_superuser": false,
+    "username": "test2_user",
+    "first_name": "",
+    "last_name": "",
+    "email": "test2_user@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-20T14:32:45.188Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 8,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$A8TKzQ0QuKgOUQc7vTgich$J1AovB0yT5klk9gTzZmLsPdyyTNoaUCG7i1tlf49lVU=",
+    "last_login": "2024-10-20T15:07:26.397Z",
+    "is_superuser": false,
+    "username": "author1",
+    "first_name": "",
+    "last_name": "",
+    "email": "author1@test.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-20T15:04:37Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 12,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$Z0zHXKwbFyWw2Ol9dPEniG$NYjSSv7BWSPEwtq1QhnhaZqODyq1TBXcXEUrN4e815Q=",
+    "last_login": "2024-10-30T19:00:38.878Z",
+    "is_superuser": false,
+    "username": "zav-2005",
+    "first_name": "",
+    "last_name": "",
+    "email": "zav-2005@yandex.ru",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-10-25T17:10:21Z",
+    "groups": [
+      1,
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "42a7m89iixcs6lh8r0q2mghv0kbvb4e9",
+  "fields": {
+    "session_data": ".eJxVUMtugzAQ_Jc9U2uxDQ6c2v5GVaG1vRaoBCJs8miUf2-ccuG2OzM7M9o7kHPzOqWO1tTzlAZHaZin7sipn32E9usO_zO0cKIYL_PioQBK0JZGoZQGUQmtpVZYFcBHGsan9JfObxKxer_R5PkqlhUe3wW8Yro18tIN2bGUsAMtuR-eMkPjmGGx9RMvzUZH8bFr-7ld7ax6in1OMA1rU6GpnTIodaCgHesaDRvb2ENVBSZLjQ0YDNfP9WCxVKFWwQflbTaNHGN-Cl9Pw3KDFh9_cM5oDQ:1t5r59:SDnurOr_INvXKrITfNOrAh3N8RBeIgfXEv0jgLA9DYM",
+    "expire_date": "2024-11-12T18:36:43.461Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5rghal5s5rkhhxpt3hzged3jryrjebm9",
+  "fields": {
+    "session_data": ".eJxVjEsKwjAUAO-StQTT_IxL9z1DeV9blQaadiXeXQpd6HZmmLcZYFvHYWuyDBObq3Hm9MsQ6CnzLvgB871aqvO6TGj3xB622b6yvG5H-zcYoY37tmTOGFU60dTFQMmzaLiUKNApc-GCBB4dFOIE7hyDd0qY0WUNmsznCwlHOP4:1t01pM:qXvXu7g2FviUCyU9bMMt27vtC8fI2zM7X8evV_fjTSs",
+    "expire_date": "2024-10-27T16:52:20.817Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "96g39f72sewsr1drszpqxjsmd8dcq6g2",
+  "fields": {
+    "session_data": ".eJxVUEFugzAQ_MueqWVjgw2ntt-oKrS21wKVmAibNmmUvzdOuXDbnZmdGe0N0Llli3nALY8U8-QwT0scTpTHxSfoP27wP0MPZ0zpZ1k9VIAZeqEll0IZaZjRRtSyAjrhND-Uv_j9UnPevF4xerqwdYP7ZwXPlGFLtA5TMRQ1HECL7otiYXCeC8z2euyp2enE3g5l3_erg9WIaSwJuiOlG65bJzWvVcCgHKmWa9K2s6ZpAqHFzgYeNLWP1VguZGhl8EF6W0wTpVR-QpfztF6h5_c_Petn8Q:1t6Dvq:_qM1H3WBaZ6n3NXrxAYYvUpLPuoy-eIZS7YQK8d-8Rw",
+    "expire_date": "2024-11-13T19:00:38.890Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "arg64sxqymltedrll883tfxqx9ikg6mm",
+  "fields": {
+    "session_data": ".eJxVjEsKwjAUAO-StQTT_IxL9z1DeV9blQaadiXeXQpd6HZmmLcZYFvHYWuyDBObq3Hm9MsQ6CnzLvgB871aqvO6TGj3xB622b6yvG5H-zcYoY37tmTOGFU60dTFQMmzaLiUKNApc-GCBB4dFOIE7hyDd0qY0WUNmsznCwlHOP4:1sxMT1:8CmVd8iI71_XWIzHUlS_2_MLICUEeFSF4_SccYmbscc",
+    "expire_date": "2024-10-20T08:18:15.430Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f5fg6wr7t2fwuewfh5f8d5d3lupxgevo",
+  "fields": {
+    "session_data": ".eJxVjstqhTAQht9l1iK5G921r1GKTOKIUmsOJpZzEN-90dqFu-G_fP9sEIMfcULvwzqnNiZMFKHZ9gL-NVzTQHMaPaYxzO03pSF0OfOxwd8NzZ0CuZug4ZWolRTciFJrXVluCngs4WfsaMmVF84dPXN2HQ8CZzUTzEjYPws4N9s10tKepoab5tB_0XwYOE2HXF7L5Zm57Fi-3T5_v1o31IBxyByp-154xiwTSnEnUPaKugqNJMesNSSkIm61JNlXtaudEdm0viLtFe8c7L9Z3m1o:1t2WJ8:6ghiSqA06_3NckbJbeB2L_SvjE4MSf_w3GPPtq7t4hE",
+    "expire_date": "2024-11-03T13:49:22.566Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u05c3faw5bdwuucwes3qi22fx2wzve0y",
+  "fields": {
+    "session_data": ".eJxVjEsKwjAUAO-StQTT_IxL9z1DeV9blQaadiXeXQpd6HZmmLcZYFvHYWuyDBObq3Hm9MsQ6CnzLvgB871aqvO6TGj3xB622b6yvG5H-zcYoY37tmTOGFU60dTFQMmzaLiUKNApc-GCBB4dFOIE7hyDd0qY0WUNmsznCwlHOP4:1t4jsj:al3EyXWtYMLx4fsf50y4x3An2hDOX1uLg3sLwC545f8",
+    "expire_date": "2024-11-09T16:43:17.800Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xwsn9y02hjtk37coe7lkcftlktvs5u3e",
+  "fields": {
+    "session_data": ".eJxVkM1uhDAMhN_FZxRBAvnh1PY1qgo5iSOiAlmRoLZa7bu32XLhZs2MP498B3QuHVuZ8CgzbSU6LDFt00plTj7D-H6H_xlGuGHOX2n30AAWGDvFTS-k7iUTykhtGqAV4_KXrLS0dy-FcmEurfD4aOB5Yzoy7VOsOA0XzaL7pK0auCxVZmc39sycdmavl6Zv59YFNWOeKycExVEF03vnPJeDC8J2jltSnRu0RWG9EBi0bK01vm8peNJc40CD9C1WaKac60Po-xb3Hxjbxy81Y2jw:1t2XWg:4V9fxVYQ9BBX6xriZYG4FOUfSs5q9lFrY-DtyPh_0Wo",
+    "expire_date": "2024-11-03T15:07:26.405Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "127.0.0.1",
+    "name": "example.com"
+  }
+},
+{
+  "model": "flatpages.flatpage",
+  "pk": 3,
+  "fields": {
+    "url": "/about/",
+    "title": "Привет",
+    "content": "контент",
+    "enable_comments": false,
+    "template_name": "",
+    "registration_required": false,
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "news.author",
+  "pk": 1,
+  "fields": {
+    "author": 2,
+    "rating": 8
+  }
+},
+{
+  "model": "news.author",
+  "pk": 2,
+  "fields": {
+    "author": 3,
+    "rating": 13
+  }
+},
+{
+  "model": "news.category",
+  "pk": 1,
+  "fields": {
+    "name": "политика"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 2,
+  "fields": {
+    "name": "спорт"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 3,
+  "fields": {
+    "name": "культура"
+  }
+},
+{
+  "model": "news.category",
+  "pk": 4,
+  "fields": {
+    "name": "афиша"
+  }
+},
+{
+  "model": "news.post",
+  "pk": 1,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-05T20:36:04.221Z",
+    "title": "Участник «Битвы шефов» Павел Чеша сгорел в своем ресторане в Краснодаре",
+    "text": "Участник «Битвы шефов» Павел Чеша сгорел в своем ресторане «У Шефа на Комарова» в Краснодаре. Об этом сообщает РИА Новости со ссылкой на правоохранительные органы.Информацию о трагическом инциденте подтвердили в социальных сетях заведения.«Заведение больше не работает <...>. Пожалуйста, без лишних вопросов. Благодарим за понимание», — указано в сообщении.Причина, по которой произошел пожар на кухне заведения, в данный момент устанавливается — одной из версий является короткое замыкание электропроводки. У Павла осталась супруга и шестимесячная дочь. Шеф-повар участвовал в шоу «Битва шефов» и «Кондитер-5».До этого жителю Перми, 17-летнему молодому человеку, который поджег свою 15-летнюю девушку, смягчили наказание, сократив срок заключения на месяц.Решение сократить срок принято из-за того, что уголовное преследование по ст. 167 УК РФ («Умышленные уничтожение или повреждение имущества») было прекращено в связи с истечением срока давности.Ранее в Марий Эл ребенок устроил пожар в квартире и чуть не задохнулся в дыму вместе с сестрой.",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 2,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-05T20:36:14.745Z",
+    "title": "(bpvtybk) Это когда ничего нет, но оно есть. Как перевернуть здравый смысл, изучив концепцию нулевой точки?",
+    "text": "Помните фразу Фридриха Ницше \"Когда долго всматриваешься в бездну, бездна начинает всматриваться в тебя\"? Эта цитата наилучшим образом подходит для описания предмета нашей беседы.Представьте себе d разогретый брусок или камень. Он состоит из частичек, которые постоянно перемещаются в пространстве. Мера движения этих частиц описывается температурой, а конкретные значения этой температуры определяют тепловую энергию. Согласно теории возможно такое состояние, что при нулевой температуре по шкале Кельвина наступает абсолютный покой. Все частицы замирают. При этом энергия этой системы тоже нулевая.Получается, что теоретически возможно такое состояние, когда классическая система (наш многострадальный брусок или камень) будет обладать нулевой энергией. Говоря простым языком - это полное отсутствие энергии. Теперь переходим к самому интересному. Рассмотрим квантовые системы.В этой области существует такое невероятно интересное понятие, как энергия нулевой точки. И, забегая вперёд, сразу скажу, что по сути это энергия абсолютной пустоты, из которой возможно даже сгенерировать частички (но про это отдельно).Энергия нулевой точки относится к минимально возможной энергии, которую может иметь квантово-механическая система, даже когда она находится в своем основном состоянии (состоянии с минимальной энергией). В отличие от классических систем (как наш брусок), где система при нулевой температуре имела бы нулевую энергию, квантовые системы все еще обладают некоторой остаточной энергией из-за присущей квантовой механике неопределенности",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 3,
+  "fields": {
+    "author": 2,
+    "type": "A",
+    "date": "2024-10-05T20:36:27.755Z",
+    "title": "Клиенты Райффайзенбанка вывели ₽120 млрд перед отменой переводов в валюте",
+    "text": "За август клиенты Райффайзенбанка — граждане и бизнес — вывели со счетов более 120 млрд руб. Отток оказался максимальным почти за полтора года. Это произошло перед анонсированной банком остановкой валютных переводов со 2 сентября В августе Райффайзенбанк столкнулся с изменением поведения ключевых групп клиентов — негосударственных компаний и физических лиц, следует из его оборотной ведомости, которую изучил РБК. За месяц остатки на счетах юридических лиц (счет 407) сократились на 56,2 млрд руб., или на 9,6%, до 531 млрд руб. на 1 сентября. За тот же период объем средств на счете 408 упал на 64,9 млрд руб. (минус 11,7%), до 490,5 млрд руб. На нем помимо средств населения также аккумулируются деньги индивидуальных предпринимателей и юрлиц-нерезидентов, но из докризисной, более детализированной отчетности Райффайзенбанка следует, что остатки на 408-м счете формировались преимущественно за счет сбережений граждан. В абсолютном выражении отток со счетов юрлиц и физлиц в Райффайзенбанке (итого 121,1 млрд руб.) стал максимальным с мая 2023 года, то есть за все время раскрытия отчетности кредитных организаций в новом формате. Если сравнивать с другими участниками рынка, то Райффайзенбанк в августе вошел в топ-3 по оттоку клиентских",
+    "rating": 2
+  }
+},
+{
+  "model": "news.post",
+  "pk": 4,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-15T17:47:30.616Z",
+    "title": "Рассказ Пушкина 1",
+    "text": "Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 5,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-15T17:50:41.876Z",
+    "title": "Рассказ Пушкина 1",
+    "text": "Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 6,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-15T17:51:19.507Z",
+    "title": "Рассказ Пушкина 1",
+    "text": "Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 7,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-15T17:51:53.238Z",
+    "title": "Рассказ Пушкина 1",
+    "text": "Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1Рассказ Пушкина 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 9,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-15T18:35:49.966Z",
+    "title": "Статья Гоголя1",
+    "text": "Статья Гоголя1Статья Гоголя1Статья Гоголя1Статья Гоголя1Статья Гоголя1Статья Гоголя1 ( эту страницу изменили )",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 10,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-15T18:37:35.303Z",
+    "title": "Статья Пушкина 2 (изменения)",
+    "text": "Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2 Статья Пушкина 2",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 12,
+  "fields": {
+    "author": 2,
+    "type": "A",
+    "date": "2024-10-16T18:02:33.519Z",
+    "title": "Гоголь 2",
+    "text": "Гоголь 2Гоголь 2Гоголь 2Гоголь 2Гоголь 2Гоголь 2Гоголь 2 Статья",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 13,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-16T18:25:06.849Z",
+    "title": "Статья Пушкина1",
+    "text": "Статья Пушкина 1, Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1Статья Пушкина 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 14,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T08:03:47.933Z",
+    "title": "новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11",
+    "text": "новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11новость 11",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 15,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T08:13:11.181Z",
+    "title": "Новость 1000",
+    "text": "Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000Новость 1000",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 16,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-26T08:16:15.244Z",
+    "title": "новость 1000",
+    "text": "новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 17,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T08:23:16.395Z",
+    "title": "новость 1000",
+    "text": "новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000новость 1000",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 18,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T08:51:36.445Z",
+    "title": "политика 1",
+    "text": "политика 1, политика 1политика 1политика 1политика 1политика 1политика 1политика 1политика 1политика 1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 19,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T09:12:37.765Z",
+    "title": "пост12",
+    "text": "пост12пост12пост12пост12пост12пост12пост12",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 20,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T09:14:28.397Z",
+    "title": "пост12",
+    "text": "пост12пост12пост12пост12пост12пост12пост12",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 21,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-26T09:17:39.417Z",
+    "title": "пост13",
+    "text": "пост13пост13пост13пост13пост13пост13пост13пост13",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 22,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-26T09:19:33.371Z",
+    "title": "Gjcn14",
+    "text": "Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 23,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-26T09:25:38.826Z",
+    "title": "Gjcn14",
+    "text": "Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14Gjcn14",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 24,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T09:36:48.284Z",
+    "title": "Пост1",
+    "text": "Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1Пост1",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 25,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-26T09:40:11.868Z",
+    "title": "rtyuvbnm",
+    "text": "jhdjhjdfjlkjjkljk jklkljklj jljkljkljlj",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 26,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T09:50:04.383Z",
+    "title": "erwerwerweerwe",
+    "text": "3456789jjjllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllllll",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 27,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-26T09:51:29.121Z",
+    "title": "123456789",
+    "text": "tttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 28,
+  "fields": {
+    "author": 2,
+    "type": "A",
+    "date": "2024-10-26T09:53:39.491Z",
+    "title": "11111111111111111111111",
+    "text": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 29,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-26T09:55:03.026Z",
+    "title": "222222222222222222222222222222222222222222",
+    "text": "2222222222222222222222222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 30,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T10:11:50.441Z",
+    "title": "111111111111111111111111",
+    "text": "22222222222222222222222222222222222222222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 31,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-26T10:12:56.670Z",
+    "title": "2121212121212121212",
+    "text": "2222222222222222222222222222222222222222222222222222233333333333333333333333333333333333333333",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 32,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T12:53:14.576Z",
+    "title": "dsfsdfsdf",
+    "text": "1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 33,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T13:06:49.887Z",
+    "title": "sdsadsadasda",
+    "text": "111111111111111111111111111222222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 34,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T13:18:35.537Z",
+    "title": "sdsdsdsdsdsd",
+    "text": "111111111111111111111111111111111111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 35,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T13:20:40.518Z",
+    "title": "ssssssssssssssssssssssssssssssss",
+    "text": "11111111111111111111111111111111111112222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 36,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:00:49.428Z",
+    "title": "ssssssssssssssssssssssssssssssss",
+    "text": "11111111111111111111111111111111111112222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 37,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:02:05.676Z",
+    "title": "ffffffffffffffffffffffffffffffff",
+    "text": "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 38,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:09:14.266Z",
+    "title": "ffffffffffffffffffffffffffffffff",
+    "text": "fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 39,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:09:38.560Z",
+    "title": "fgfdg111111111111111",
+    "text": "222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 40,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:12:38.050Z",
+    "title": "dasdad1212",
+    "text": "123123sdadxcfertg453 dsffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 41,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:13:44.824Z",
+    "title": "sadasdada sdada",
+    "text": "12312dasdasdddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 42,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:15:52.842Z",
+    "title": "dasdasd 1`31233 dasdas",
+    "text": "ghhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhgggggggggggggggggggggggggggggg",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 43,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:19:43.091Z",
+    "title": "edfdf121",
+    "text": "111111111qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqq",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 44,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:21:53.734Z",
+    "title": "121234fsdvggdfg dfg d",
+    "text": "SubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriberSubscriber",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 45,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:27:32.174Z",
+    "title": "c121212121212",
+    "text": "322ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 46,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:28:45.361Z",
+    "title": "dsaddasd final",
+    "text": "dfjkldsjflkjfskldjfkljskldfjlkjsdlkfjlksdjfljlsdjflkjsdlkfjlksdjflksajlfkjklasdjflksjdaflkjlksadjflkjsflkjasldkfjkljsqlkfjsalkdjfklsdjflkjsdlkfjklasdfjj",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 47,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:30:09.114Z",
+    "title": "dsfsdfsadf",
+    "text": "fsddsafdsdafsdfjkjiokfjkjljfoiujqejriknfjknhqekjfvhbnkjqesdbhnvlkjqbnslvkjnnskadjlmvfnk;ljqedsnjv;lkjn",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 48,
+  "fields": {
+    "author": 2,
+    "type": "N",
+    "date": "2024-10-26T14:33:47.824Z",
+    "title": "Новость тест заголовок",
+    "text": "тест новости гоголя 11111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 49,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:35:56.121Z",
+    "title": "выфвфывфывфывфы",
+    "text": "ыфввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввв",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 50,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T14:36:46.175Z",
+    "title": "выфвфывфывфывфы",
+    "text": "ыфввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввв",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 51,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T19:08:31.904Z",
+    "title": "dfffffffffffffffffffffffffffffffffffffff",
+    "text": "11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 52,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-26T19:09:07.705Z",
+    "title": "sadddddddddddddddda",
+    "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 53,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T18:37:38.485Z",
+    "title": "Отправка Celery",
+    "text": "Отправка CeleryОтправка CeleryОтправка CeleryОтправка CeleryОтправка CeleryОтправка CeleryОтправка Celery",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 54,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T18:51:03.481Z",
+    "title": "проверка 2",
+    "text": "проверка 2проверка 2проверка 2проверка 2проверка 2проверка 2проверка 2",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 55,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T18:52:52.152Z",
+    "title": "тест 3",
+    "text": "тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3 тест 3",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 56,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T18:57:01.371Z",
+    "title": "тест4",
+    "text": "тест4тест4тест4тест4тест4тест4тест4тест4тест4тест4тест4тест4тест4",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 57,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T18:59:00.085Z",
+    "title": "тест5",
+    "text": "тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5тест5",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 58,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-29T19:01:57.884Z",
+    "title": "fdfedfdsf s",
+    "text": "dsfsadfasdfdsfsdfsdfdsdffffffffffffffffffffffffffffffffffffffffffffff",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 59,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:01:02.865Z",
+    "title": "новость тест1",
+    "text": "Новость тестй Новость тестй Новость тестй Новость тестй Новость тестй",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 60,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:12:01.551Z",
+    "title": "ntcnhjbydft",
+    "text": "ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft ntcnhjbydft",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 61,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:13:23.094Z",
+    "title": "dasdsadasdasd",
+    "text": "saaaaaassssssssssssssssssssssssssssssssssssssssssssssssssssss",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 62,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:15:40.266Z",
+    "title": "ffffffffffffffffffffffffffffffffffff",
+    "text": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 63,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:19:20.621Z",
+    "title": "111111111111111111111111111111111111111111111",
+    "text": "1111111111111111111111111111111111111111111111111111111111",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 64,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:20:43.620Z",
+    "title": "sadassssssssssssssssssssssss",
+    "text": "ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 65,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-30T19:33:19.735Z",
+    "title": "dsadasdasdasdsad",
+    "text": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 66,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:37:09.271Z",
+    "title": "222222222222222222222222",
+    "text": "2222222222222222222222222222222222222222222222222222222222",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 67,
+  "fields": {
+    "author": 1,
+    "type": "N",
+    "date": "2024-10-30T19:38:25.800Z",
+    "title": "dddddddddddddddddddddddd",
+    "text": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+    "rating": 0
+  }
+},
+{
+  "model": "news.post",
+  "pk": 68,
+  "fields": {
+    "author": 1,
+    "type": "A",
+    "date": "2024-10-30T20:23:02.586Z",
+    "title": "ывыфвфывыфвфывфыв",
+    "text": "вввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввввв",
+    "rating": 0
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 4,
+  "fields": {
+    "post": 4,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 5,
+  "fields": {
+    "post": 5,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 6,
+  "fields": {
+    "post": 6,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 7,
+  "fields": {
+    "post": 7,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 9,
+  "fields": {
+    "post": 9,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 10,
+  "fields": {
+    "post": 10,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 11,
+  "fields": {
+    "post": 2,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 13,
+  "fields": {
+    "post": 12,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 14,
+  "fields": {
+    "post": 13,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 15,
+  "fields": {
+    "post": 13,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 16,
+  "fields": {
+    "post": 16,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 17,
+  "fields": {
+    "post": 21,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 18,
+  "fields": {
+    "post": 22,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 19,
+  "fields": {
+    "post": 23,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 20,
+  "fields": {
+    "post": 24,
+    "category": 2
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 21,
+  "fields": {
+    "post": 25,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 22,
+  "fields": {
+    "post": 26,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 23,
+  "fields": {
+    "post": 27,
+    "category": 3
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 24,
+  "fields": {
+    "post": 28,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 25,
+  "fields": {
+    "post": 29,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 26,
+  "fields": {
+    "post": 30,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 27,
+  "fields": {
+    "post": 32,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 28,
+  "fields": {
+    "post": 44,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 29,
+  "fields": {
+    "post": 47,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 30,
+  "fields": {
+    "post": 50,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 31,
+  "fields": {
+    "post": 52,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 32,
+  "fields": {
+    "post": 53,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 33,
+  "fields": {
+    "post": 54,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 34,
+  "fields": {
+    "post": 55,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 35,
+  "fields": {
+    "post": 56,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 36,
+  "fields": {
+    "post": 57,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 37,
+  "fields": {
+    "post": 58,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 38,
+  "fields": {
+    "post": 59,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 39,
+  "fields": {
+    "post": 60,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 40,
+  "fields": {
+    "post": 61,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 41,
+  "fields": {
+    "post": 62,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 42,
+  "fields": {
+    "post": 63,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 43,
+  "fields": {
+    "post": 64,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 44,
+  "fields": {
+    "post": 65,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 45,
+  "fields": {
+    "post": 66,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 46,
+  "fields": {
+    "post": 67,
+    "category": 1
+  }
+},
+{
+  "model": "news.postcategory",
+  "pk": 47,
+  "fields": {
+    "post": 68,
+    "category": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 1,
+  "fields": {
+    "post": 1,
+    "author": 2,
+    "text": "Хорошая новость",
+    "datatime": "2024-10-05T20:38:18.158Z",
+    "rating": 2
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 2,
+  "fields": {
+    "post": 1,
+    "author": 3,
+    "text": "Хорошая новость",
+    "datatime": "2024-10-05T20:38:25.455Z",
+    "rating": 0
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 3,
+  "fields": {
+    "post": 2,
+    "author": 3,
+    "text": "Мне не понравилось",
+    "datatime": "2024-10-05T20:38:51.603Z",
+    "rating": 1
+  }
+},
+{
+  "model": "news.comment",
+  "pk": 4,
+  "fields": {
+    "post": 3,
+    "author": 2,
+    "text": "Забавно",
+    "datatime": "2024-10-05T20:39:03.198Z",
+    "rating": -1
+  }
+},
+{
+  "model": "news.subscriber",
+  "pk": 1,
+  "fields": {
+    "user": 12,
+    "category": 4
+  }
+},
+{
+  "model": "news.subscriber",
+  "pk": 2,
+  "fields": {
+    "user": 12,
+    "category": 3
+  }
+},
+{
+  "model": "news.subscriber",
+  "pk": 3,
+  "fields": {
+    "user": 12,
+    "category": 1
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 2,
+  "fields": {
+    "user": 6,
+    "email": "test_user1@test.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 3,
+  "fields": {
+    "user": 7,
+    "email": "test2_user@test.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 4,
+  "fields": {
+    "user": 8,
+    "email": "author1@test.com",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "account.emailaddress",
+  "pk": 8,
+  "fields": {
+    "user": 12,
+    "email": "zav-2005@yandex.ru",
+    "verified": false,
+    "primary": true
+  }
+},
+{
+  "model": "socialaccount.socialapp",
+  "pk": 1,
+  "fields": {
+    "provider": "yandex",
+    "provider_id": "",
+    "name": "Yandex",
+    "client_id": "9be66b2728ed459999ee20f9728e86f3",
+    "secret": "fd2c72ae5eda4b35829b3d94e40666d8",
+    "key": "",
+    "settings": {},
+    "sites": [
+      1
+    ]
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "delete_old_job_executions",
+  "fields": {
+    "next_run_time": "2024-10-27T21:00:00Z",
+    "job_state": "gAWVYwQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwZZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMBGZ1bmOUjEFuZXdzLm1hbmFnZW1lbnQuY29tbWFuZHMucnVuYXBzY2hlZHVsZXI6ZGVsZXRlX29sZF9qb2JfZXhlY3V0aW9uc5SMB3RyaWdnZXKUjBlhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9ulIwLQ3JvblRyaWdnZXKUk5QpgZR9lChoAUsCjAh0aW1lem9uZZSMCGJ1aWx0aW5zlIwHZ2V0YXR0cpSTlIwSYmFja3BvcnRzLnpvbmVpbmZvlIwIWm9uZUluZm+Uk5SMCV91bnBpY2tsZZSGlFKUjA1FdXJvcGUvTW9zY293lEsBhpRSlIwKc3RhcnRfZGF0ZZROjAhlbmRfZGF0ZZROjAZmaWVsZHOUXZQojCBhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmZpZWxkc5SMCUJhc2VGaWVsZJSTlCmBlH2UKIwEbmFtZZSMBHllYXKUjAppc19kZWZhdWx0lIiMC2V4cHJlc3Npb25zlF2UjCVhcHNjaGVkdWxlci50cmlnZ2Vycy5jcm9uLmV4cHJlc3Npb25zlIwNQWxsRXhwcmVzc2lvbpSTlCmBlH2UjARzdGVwlE5zYmF1YmgdjApNb250aEZpZWxklJOUKYGUfZQoaCKMBW1vbnRolGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwPRGF5T2ZNb250aEZpZWxklJOUKYGUfZQoaCKMA2RheZRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MCVdlZWtGaWVsZJSTlCmBlH2UKGgijAR3ZWVrlGgkiGglXZRoKSmBlH2UaCxOc2JhdWJoHYwORGF5T2ZXZWVrRmllbGSUk5QpgZR9lChoIowLZGF5X29mX3dlZWuUaCSJaCVdlGgnjBZXZWVrZGF5UmFuZ2VFeHByZXNzaW9ulJOUKYGUfZQoaCxOjAVmaXJzdJRLAIwEbGFzdJRLAHViYXViaB8pgZR9lChoIowEaG91cpRoJIloJV2UaCeMD1JhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTmhPSwBoUEsAdWJhdWJoHymBlH2UKGgijAZtaW51dGWUaCSJaCVdlGhWKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmgfKYGUfZQoaCKMBnNlY29uZJRoJIhoJV2UaFYpgZR9lChoLE5oT0sAaFBLAHViYXViZYwGaml0dGVylE51YowIZXhlY3V0b3KUjAdkZWZhdWx0lIwEYXJnc5QpjAZrd2FyZ3OUfZRoImgDjBJtaXNmaXJlX2dyYWNlX3RpbWWUSwGMCGNvYWxlc2NllIiMDW1heF9pbnN0YW5jZXOUSwGMDW5leHRfcnVuX3RpbWWUjAhkYXRldGltZZSMCGRhdGV0aW1llJOUQwoH6AocAAAAAAAAlGgYhpRSlHUu"
+  }
+},
+{
+  "model": "django_apscheduler.djangojob",
+  "pk": "my_job",
+  "fields": {
+    "next_run_time": "2024-11-01T15:00:00Z",
+    "job_state": "gAWVPQQAAAAAAAB9lCiMB3ZlcnNpb26USwGMAmlklIwGbXlfam9ilIwEZnVuY5SMLm5ld3MubWFuYWdlbWVudC5jb21tYW5kcy5ydW5hcHNjaGVkdWxlcjpteV9qb2KUjAd0cmlnZ2VylIwZYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3JvbpSMC0Nyb25UcmlnZ2VylJOUKYGUfZQoaAFLAowIdGltZXpvbmWUjAhidWlsdGluc5SMB2dldGF0dHKUk5SMEmJhY2twb3J0cy56b25laW5mb5SMCFpvbmVJbmZvlJOUjAlfdW5waWNrbGWUhpRSlIwNRXVyb3BlL01vc2Nvd5RLAYaUUpSMCnN0YXJ0X2RhdGWUTowIZW5kX2RhdGWUTowGZmllbGRzlF2UKIwgYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5maWVsZHOUjAlCYXNlRmllbGSUk5QpgZR9lCiMBG5hbWWUjAR5ZWFylIwKaXNfZGVmYXVsdJSIjAtleHByZXNzaW9uc5RdlIwlYXBzY2hlZHVsZXIudHJpZ2dlcnMuY3Jvbi5leHByZXNzaW9uc5SMDUFsbEV4cHJlc3Npb26Uk5QpgZR9lIwEc3RlcJROc2JhdWJoHYwKTW9udGhGaWVsZJSTlCmBlH2UKGgijAVtb250aJRoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MD0RheU9mTW9udGhGaWVsZJSTlCmBlH2UKGgijANkYXmUaCSIaCVdlGgpKYGUfZRoLE5zYmF1YmgdjAlXZWVrRmllbGSUk5QpgZR9lChoIowEd2Vla5RoJIhoJV2UaCkpgZR9lGgsTnNiYXViaB2MDkRheU9mV2Vla0ZpZWxklJOUKYGUfZQoaCKMC2RheV9vZl93ZWVrlGgkiWglXZRoJ4wWV2Vla2RheVJhbmdlRXhwcmVzc2lvbpSTlCmBlH2UKGgsTowFZmlyc3SUSwSMBGxhc3SUSwR1YmF1YmgfKYGUfZQoaCKMBGhvdXKUaCSJaCVdlGgnjA9SYW5nZUV4cHJlc3Npb26Uk5QpgZR9lChoLE5oT0sSaFBLEnViYXViaB8pgZR9lChoIowGbWludXRllGgkiWglXZRoVimBlH2UKGgsTmhPSwBoUEsAdWJhdWJoHymBlH2UKGgijAZzZWNvbmSUaCSIaCVdlGhWKYGUfZQoaCxOaE9LAGhQSwB1YmF1YmWMBmppdHRlcpROdWKMCGV4ZWN1dG9ylIwHZGVmYXVsdJSMBGFyZ3OUKYwGa3dhcmdzlH2UaCJoA4wSbWlzZmlyZV9ncmFjZV90aW1llEsBjAhjb2FsZXNjZZSIjA1tYXhfaW5zdGFuY2VzlEsBjA1uZXh0X3J1bl90aW1llIwIZGF0ZXRpbWWUjAhkYXRldGltZZSTlEMKB+gLARIAAAAAAJRoGIaUUpR1Lg=="
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 1,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:11:44.801Z",
+    "duration": "0.02",
+    "finished": "1729962704.82",
+    "exception": "DjangoJobExecution matching query does not exist.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 18, in my_job\n    time_last_execution = DjangoJobExecution.objects.get(job=\"my_job\", status=\"Executed\").last().values(\"run_time\")\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 637, in get\n    raise self.model.DoesNotExist(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 2,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:12:47.583Z",
+    "duration": "0.01",
+    "finished": "1729962767.59",
+    "exception": "'NoneType' object has no attribute 'values'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 18, in my_job\n    time_last_execution = DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").last().values(\"run_time\")\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 3,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T17:14:00.418Z",
+    "duration": "0.02",
+    "finished": "1729962840.43",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 4,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T17:14:17.407Z",
+    "duration": "0.02",
+    "finished": "1729962857.43",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 5,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:30:56.105Z",
+    "duration": "0.06",
+    "finished": "1729963856.17",
+    "exception": "fromisoformat: argument must be str",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gt = time_last_execution).values(\"id\",\"date\",\"title\",\"postcategory__category__name\",\"preview\")\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1546, in to_python\n    parsed = parse_datetime(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\utils\\dateparse.py\", line 114, in parse_datetime\n    return datetime.datetime.fromisoformat(value)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 6,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:34:57.820Z",
+    "duration": "0.03",
+    "finished": "1729964097.85",
+    "exception": "'dict' object has no attribute 'isoformat'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gt = time_last_execution.isoformat).values(\"id\",\"date\",\"title\",\"postcategory__category__name\",\"preview\")\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 7,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:37:46.780Z",
+    "duration": "0.01",
+    "finished": "1729964266.79",
+    "exception": "'dict' object has no attribute 'fromisoformat'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gt = time_last_execution.fromisoformat()).values(\"id\",\"date\",\"title\",\"postcategory__category__name\",\"preview\")\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 8,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:42:26.286Z",
+    "duration": "0.02",
+    "finished": "1729964546.31",
+    "exception": "['“2024-09-26 16:37:46 MSK” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.']",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gt = \"2024-09-26 16:37:46 MSK\" ).values(\"id\",\"date\",\"title\",\"postcategory__category__name\",\"preview\") #time_last_execution.fromisoformat()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1567, in to_python\n    raise exceptions.ValidationError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 9,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T17:45:01.857Z",
+    "duration": "0.01",
+    "finished": "1729964701.87",
+    "exception": "Cannot resolve keyword 'preview' into field. Choices are: author, author_id, category, comment, date, id, postcategory, rating, text, title, type",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gt = \"2024-09-26 16:37:46\" ).values(\"id\",\"date\",\"title\",\"postcategory__category__name\",\"preview\") #time_last_execution.fromisoformat()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1313, in values\n    clone = self._values(*fields, **expressions)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1308, in _values\n    clone.query.set_values(fields)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2463, in set_values\n    self.add_fields(field_names, True)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2195, in add_fields\n    raise FieldError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 10,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T17:45:34.802Z",
+    "duration": "0.03",
+    "finished": "1729964734.83",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 11,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T17:46:03.856Z",
+    "duration": "0.02",
+    "finished": "1729964763.88",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 12,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:03:25.281Z",
+    "duration": "0.02",
+    "finished": "1729965805.30",
+    "exception": "fromisoformat: argument must be str",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gte = time_last_execution).values(\"id\",\"date\",\"title\",\"postcategory__category__name\")\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1546, in to_python\n    parsed = parse_datetime(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\utils\\dateparse.py\", line 114, in parse_datetime\n    return datetime.datetime.fromisoformat(value)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 13,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:04:20.604Z",
+    "duration": "0.02",
+    "finished": "1729965860.63",
+    "exception": "[\"“{'run_time': datetime.datetime(2024, 10, 26, 17, 14, 0, 418550, tzinfo=datetime.timezone.utc)}” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.\"]",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gte = str(time_last_execution)).values(\"id\",\"date\",\"title\",\"postcategory__category__name\")\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1567, in to_python\n    raise exceptions.ValidationError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 14,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:05:06.506Z",
+    "duration": "0.01",
+    "finished": "1729965906.52",
+    "exception": "[\"“{'run_time': datetime.datetime(2024, 10, 26, 17, 14, 0, 418550, tzinfo=datetime.timezone.utc)}” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[.uuuuuu]][TZ] format.\"]",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 24, in my_job\n    post_list = Post.objects.filter(date__gte = str(time_last_execution)).values(\"id\",\"date\",\"title\",\"postcategory__category__name\")\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1567, in to_python\n    raise exceptions.ValidationError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 15,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:05:38.550Z",
+    "duration": "0.02",
+    "finished": "1729965938.57",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 16,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:09:15.964Z",
+    "duration": "0.01",
+    "finished": "1729966155.98",
+    "exception": "descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'dict' object",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    print(datetime.date(time_last_execution))\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 17,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:10:06.624Z",
+    "duration": "0.02",
+    "finished": "1729966206.64",
+    "exception": "descriptor 'date' for 'datetime.datetime' objects doesn't apply to a 'dict' object",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    print(datetime.date(time_last_execution))\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 18,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:15:34.702Z",
+    "duration": "0.02",
+    "finished": "1729966534.72",
+    "exception": "'dict' object has no attribute 'year'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    print(f'{time_last_execution.year}-{time_last_execution.month} - {time_last_execution.day} {time_last_execution.hour}:{time_last_execution.minute}:{time_last_execution.second}.{time_last_execution.microsecond}' )\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 19,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:15:36.055Z",
+    "duration": "0.02",
+    "finished": "1729966536.07",
+    "exception": "'dict' object has no attribute 'year'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    print(f'{time_last_execution.year}-{time_last_execution.month} - {time_last_execution.day} {time_last_execution.hour}:{time_last_execution.minute}:{time_last_execution.second}.{time_last_execution.microsecond}' )\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 20,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:16:45.914Z",
+    "duration": "0.02",
+    "finished": "1729966605.93",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 21,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:18:48.257Z",
+    "duration": "0.01",
+    "finished": "1729966728.27",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 22,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:21:26.438Z",
+    "duration": "0.01",
+    "finished": "1729966886.45",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 23,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:22:31.146Z",
+    "duration": "0.02",
+    "finished": "1729966951.16",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    print(time_last_execution['run_time'], datetime.now())\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 24,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:22:57.005Z",
+    "duration": "0.02",
+    "finished": "1729966977.02",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 25,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:24:34.753Z",
+    "duration": "0.02",
+    "finished": "1729967074.78",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 26,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:25:34.943Z",
+    "duration": "0.02",
+    "finished": "1729967134.96",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 27,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:26:33.344Z",
+    "duration": "0.02",
+    "finished": "1729967193.36",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 28,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:27:35.303Z",
+    "duration": "0.02",
+    "finished": "1729967255.32",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 29,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T18:29:26.304Z",
+    "duration": "0.02",
+    "finished": "1729967366.32",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 30,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:33:06.842Z",
+    "duration": "0.02",
+    "finished": "1729967586.86",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 19, in my_job\n    time_last_execution = (DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").values(\"run_time\").order_by('-id')[:1])['run_time']\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 31,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:35:55.484Z",
+    "duration": "0.02",
+    "finished": "1729967755.50",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    time_last = time_last_execution[\"run_time\"]\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 32,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:37:32.684Z",
+    "duration": "0.02",
+    "finished": "1729967852.70",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    time_last = time_last_execution[\"run_time\"]\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 33,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:38:26.859Z",
+    "duration": "0.02",
+    "finished": "1729967906.88",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    time_last = time_last_execution['run_time']\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 34,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:38:33.437Z",
+    "duration": "0.03",
+    "finished": "1729967913.46",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    time_last = time_last_execution['run_time']\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 35,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:40:56.812Z",
+    "duration": "0.01",
+    "finished": "1729968056.82",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    print(time_last_execution['run_time'])\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 36,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:46:40.749Z",
+    "duration": "0.02",
+    "finished": "1729968400.77",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    print(time_last_execution['run_time'])\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 37,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:47:12.347Z",
+    "duration": "0.01",
+    "finished": "1729968432.36",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    print(time_last_execution['run_time'])\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 38,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:47:25.830Z",
+    "duration": "0.01",
+    "finished": "1729968445.84",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    print(time_last_execution['run_time'])\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 39,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-26T18:47:27.251Z",
+    "duration": "0.02",
+    "finished": "1729968447.27",
+    "exception": "QuerySet indices must be integers or slices, not str.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 21, in my_job\n    print(time_last_execution['run_time'])\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 418, in __getitem__\n    raise TypeError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 40,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T19:01:36.284Z",
+    "duration": "0.01",
+    "finished": "1729969296.29",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 41,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T19:04:17.483Z",
+    "duration": "0.02",
+    "finished": "1729969457.50",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 42,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T19:04:56.993Z",
+    "duration": "0.05",
+    "finished": "1729969497.04",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 43,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T19:07:39.670Z",
+    "duration": "0.02",
+    "finished": "1729969659.69",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 44,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-26T19:09:44.751Z",
+    "duration": "0.02",
+    "finished": "1729969784.77",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 45,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T04:25:44.385Z",
+    "duration": "0.01",
+    "finished": "1730003144.39",
+    "exception": "unhashable type: 'dict'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 23, in my_job\n    time_last_execution = set(DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").values(\"run_time\").order_by('-id')[:1])\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 46,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T04:27:13.313Z",
+    "duration": "0.02",
+    "finished": "1730003233.34",
+    "exception": "fromisoformat: argument must be str",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    post_list = Post.objects.filter(date__gte = time_last_execution )\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\manager.py\", line 87, in manager_method\n    return getattr(self.get_queryset(), name)(*args, **kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1436, in filter\n    return self._filter_or_exclude(False, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1454, in _filter_or_exclude\n    clone._filter_or_exclude_inplace(negate, args, kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1461, in _filter_or_exclude_inplace\n    self._query.add_q(Q(*args, **kwargs))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1546, in add_q\n    clause, _ = self._add_q(q_object, self.used_aliases)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1577, in _add_q\n    child_clause, needed_inner = self.build_filter(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1492, in build_filter\n    condition = self.build_lookup(lookups, col, value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1319, in build_lookup\n    lookup = lookup_class(lhs, rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 27, in __init__\n    self.rhs = self.get_prep_lookup()\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\lookups.py\", line 85, in get_prep_lookup\n    return self.lhs.output_field.get_prep_value(self.rhs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1585, in get_prep_value\n    value = super().get_prep_value(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1464, in get_prep_value\n    return self.to_python(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\fields\\__init__.py\", line 1546, in to_python\n    parsed = parse_datetime(value)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\utils\\dateparse.py\", line 114, in parse_datetime\n    return datetime.datetime.fromisoformat(value)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 47,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:01:11.227Z",
+    "duration": "0.02",
+    "finished": "1730005271.25",
+    "exception": "name 'true' is not defined",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 25, in my_job\n    p = set(DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").values(\"run_time\").order_by('-id')[:1], flat = true)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 48,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:02:04.968Z",
+    "duration": "0.02",
+    "finished": "1730005324.99",
+    "exception": "name 'true' is not defined",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 25, in my_job\n    p = set(DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").values(\"run_time\").order_by('-id')[:1], flat = true)\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 49,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:03:00.028Z",
+    "duration": "0.01",
+    "finished": "1730005380.03",
+    "exception": "'QuerySet' object has no attribute 'value_list'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 25, in my_job\n    p = set(DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").value_list(\"run_time\", flat = true).order_by('-id')[:1])\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 50,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:03:29.498Z",
+    "duration": "0.02",
+    "finished": "1730005409.52",
+    "exception": "'QuerySet' object has no attribute 'value_list'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 25, in my_job\n    p = set(DjangoJobExecution.objects.filter(job=\"my_job\", status=\"Executed\").order_by('-id')[:1].value_list(\"run_time\",flat = true))\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 51,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:03:43.400Z",
+    "duration": "0.01",
+    "finished": "1730005423.41",
+    "exception": "'QuerySet' object has no attribute 'value_list'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 25, in my_job\n    # если это первый запуск-, тогда текущая дата.\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 52,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:03:45.002Z",
+    "duration": "0.01",
+    "finished": "1730005425.01",
+    "exception": "'QuerySet' object has no attribute 'value_list'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    categories = set(post_list.value_list('catygory__name', flat = True))\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 53,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:06:20.652Z",
+    "duration": "0.02",
+    "finished": "1730005580.68",
+    "exception": "Cannot resolve keyword 'catygory' into field. Choices are: author, author_id, category, comment, date, id, postcategory, rating, text, title, type",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 32, in my_job\n    categories = set(post_list.values_list('catygory__name', flat = True))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1345, in values_list\n    clone = self._values(*_fields, **expressions)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1308, in _values\n    clone.query.set_values(fields)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2463, in set_values\n    self.add_fields(field_names, True)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2162, in add_fields\n    join_info = self.setup_joins(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1824, in setup_joins\n    path, final_field, targets, rest = self.names_to_path(\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1725, in names_to_path\n    raise FieldError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 54,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:07:13.746Z",
+    "duration": "0.02",
+    "finished": "1730005633.77",
+    "exception": "'QuerySet' object has no attribute 'value_liste'",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 34, in my_job\n    subscriber = set(Category.objects.filter(name__in = categories).value_liste('subscriber__email', flat = True))\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 55,
+  "fields": {
+    "job": "my_job",
+    "status": "Error!",
+    "run_time": "2024-10-27T05:07:41.843Z",
+    "duration": "0.02",
+    "finished": "1730005661.86",
+    "exception": "Unsupported lookup 'email' for BigAutoField or join on the field not permitted.",
+    "traceback": "  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\apscheduler\\executors\\base.py\", line 125, in run_job\n    retval = job.func(*job.args, **job.kwargs)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\NewsPortal\\news\\management\\commands\\runapscheduler.py\", line 34, in my_job\n    subscriber = set(Category.objects.filter(name__in = categories).values_list('subscriber__email', flat = True))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1345, in values_list\n    clone = self._values(*_fields, **expressions)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\query.py\", line 1308, in _values\n    clone.query.set_values(fields)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2463, in set_values\n    self.add_fields(field_names, True)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 2171, in add_fields\n    cols.append(join_info.transform_function(target, final_alias))\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1847, in transform\n    return self.try_transform(wrapped, name)\n  File \"D:\\MyExamplePython\\NewsPortalProject\\.venv\\lib\\site-packages\\django\\db\\models\\sql\\query.py\", line 1357, in try_transform\n    raise FieldError(\n"
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 56,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-27T05:19:29.914Z",
+    "duration": "0.02",
+    "finished": "1730006369.93",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 57,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-27T05:20:53.274Z",
+    "duration": "0.06",
+    "finished": "1730006453.34",
+    "exception": null,
+    "traceback": null
+  }
+},
+{
+  "model": "django_apscheduler.djangojobexecution",
+  "pk": 58,
+  "fields": {
+    "job": "my_job",
+    "status": "Executed",
+    "run_time": "2024-10-27T05:24:54.290Z",
+    "duration": "0.04",
+    "finished": "1730006694.33",
+    "exception": null,
+    "traceback": null
+  }
+}
+]

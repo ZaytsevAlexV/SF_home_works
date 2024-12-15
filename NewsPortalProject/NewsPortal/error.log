@@ -1,0 +1,9 @@
+2024-12-15 13:27:33,971 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:27:33,977 CRITICAL Уровень критичной ошибки-critical D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:31:14,831 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:31:14,837 CRITICAL Уровень критичной ошибки-critical D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:31:21,520 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:31:21,520 CRITICAL Уровень критичной ошибки-critical D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:32:01,156 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:34:04,080 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:34:04,154 CRITICAL Уровень критичной ошибки-critical D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 

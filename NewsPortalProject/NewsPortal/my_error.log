@@ -1,0 +1,2 @@
+2024-12-15 13:21:36,735 ERROR Уровень ошибки-error D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 
+2024-12-15 13:21:36,756 CRITICAL Уровень критичной ошибки-critical D:\MyExamplePython\NewsPortalProject\NewsPortal\middleware\MyMiddleware.py 

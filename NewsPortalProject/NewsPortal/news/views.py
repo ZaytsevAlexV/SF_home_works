@@ -11,6 +11,8 @@ from django.db.models import Exists, OuterRef
 from django.shortcuts import render
 from django.views.decorators.csrf import csrf_protect
 
+from django.core.cache import cache
+
 #задачи celery
 from .tasks import new_post_email
 
@@ -25,7 +27,8 @@ class NewsList(ListView):
     # Это имя списка, в котором будут лежать все объекты.
     # Его надо указать, чтобы обратиться к списку объектов в html-шаблоне.
     context_object_name = 'news'
-    paginate_by = 2
+    paginate_by = 20
+
 
 class NewsSerchList(ListView):
     # Указываем модель, объекты которой мы будем выводить
@@ -58,13 +61,28 @@ class NewsSerchList(ListView):
         # Добавляем в контекст объект фильтрации.
         context['filterset'] = self.filterset
         return context
+    #example befo cache
+# class NewsDetail(DetailView):
+#     # Модель всё та же, но мы хотим получать информацию по отдельной новоси
+#     model = Post
+#     # Используем другой шаблон — new.html
+#     template_name = 'one_news.html'
+#     # Название объекта, в котором будет выбранный пользователем новость
+#     context_object_name = 'one_news'
+
+
 class NewsDetail(DetailView):
-    # Модель всё та же, но мы хотим получать информацию по отдельной новоси
-    model = Post
-    # Используем другой шаблон — new.html
     template_name = 'one_news.html'
-    # Название объекта, в котором будет выбранный пользователем новость
+    queryset = Post.objects.all()
     context_object_name = 'one_news'
+
+    def get_object(self, *args, **kwargs):  # переопределяем метод получения объекта, как ни странно
+        obj = cache.get(f'post-{self.kwargs["pk"]}', None)  # кэш очень похож на словарь, и метод get действует так же. Он забирает значение по ключу, если его нет, то забирает None.
+        # если объекта нет в кэше, то получаем его и записываем в кэш
+        if not obj:
+            obj = super().get_object(queryset=self.queryset)
+            cache.set(f'post-{self.kwargs["pk"]}', obj)
+        return obj
 
 class ArticleCreate( PermissionRequiredMixin,CreateView):
     #raise_exception = True
