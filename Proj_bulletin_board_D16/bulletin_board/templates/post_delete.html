@@ -1,0 +1,26 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+<h1> Вы хотите удалить этот пост?</h1>
+<hr>
+<form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+      <input type="submit" value="УДАЛИТЬ" />
+    </form>
+    <table>
+        <tr>
+            <td bgcolor="lightblue"><b>  Заголовок  </b></td>
+            <td bgcolor="lightblue"><b>  Автор  </b></td>
+            <td bgcolor="lightblue"><b>  Преставление статьи  </b></td>
+            <td bgcolor="lightblue"><b>  Категория  </b></td>
+        </tr>
+
+        <tr class="{% cycle '--bs-blue' '--bs-white' %}">
+            <td>{{ post.title }}</td>
+            <td>{{ post.author }}</td>
+            <td>{{ post.text_post|truncatechars:20 }}</td>
+            <td>{{ post.category }}</td>
+        </tr>
+    </table>
+
+{% endblock content %}

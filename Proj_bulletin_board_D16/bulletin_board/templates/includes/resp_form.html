@@ -1,0 +1,6 @@
+<h2> Добавление нового отклика </h2>
+<form action="{% url "create_resp" post.pk %}" method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <p><input type="submit" value="Добавить"> </p>
+ </form>

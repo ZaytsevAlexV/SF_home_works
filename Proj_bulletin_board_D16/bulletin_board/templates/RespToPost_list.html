@@ -1,0 +1,83 @@
+<!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
+{% extends 'flatpages/default.html' %}
+
+{# Импортируем модуль с нашим тегом #}
+{% load custom_tags %}
+
+{% block title %}
+Все Отклики
+{% endblock title %}
+
+
+
+{% block content %}
+<br> </br>
+<h3> Отклики </h3>
+<br> </br>
+
+   {# Добавляем форму, которая объединяет набор полей, которые будут отправляться в запросе #}
+   <form action="" method="get">
+       {# Переменная, которую мы передали через контекст, может сгенерировать нам форму с полями #}
+       {{ filterset.form.as_p }}
+       {# Добавим кнопку отправки данных формы #}
+       <input type="submit" value="Найти" />
+   </form>
+<br> </br>
+   <hr>
+{% if resp %}
+    <table>
+        <tr>
+            <td bgcolor="lightblue"><b>Обявление</b></td>
+            <td bgcolor="lightblue"><b>Автор отклика</b></td>
+            <td bgcolor="lightblue"><b>Текст отклика</b></td>
+            <td bgcolor="lightblue"><b>Состояние отклика</b></td>
+            <td bgcolor="lightblue"><b>Дата статус</b></td>
+            <td bgcolor="lightblue"><b>Дата Изменения </b></td>
+            <td bgcolor="lightblue"><b>Действие</b></td>
+        </tr>
+        {% for res in resp %}
+        <tr>
+           <td><p><a href="{% url 'post' pk=res.post.id %}">{{ res.post.title }}</a> </p></td>
+           <td>{{ res.user.username }}</td>
+           <td>{{ res.text }}</td>
+           <td>{{ res.status }}</td>
+           <td>{{ res.create_date|date:'d.m.y H:i:s' }}</td>
+           <td>{{ res.update_date|date:'d.m.y H:i:s' }}</td>
+           <td>
+                <form action= "{% url 'resp_deactiv' resp_id=res.pk %}" method="post">
+                    {% csrf_token %}
+                    <input type="submit" value="Отклонить" />
+                </form>
+
+                <form action= "{% url 'resp_accept' resp_id=res.pk %}" method="post">
+                    {% csrf_token %}
+                    <input type="submit" value="Принять" />
+                </form>
+           </td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+       <h2>Откликов нет</h2>
+{% endif %}
+<br> </br>
+{% if page_obj.has_previous %}
+       {# Для каждой ссылки пагинации указываем обработку через новый тег #}
+       <a href="?{% url_replace page=1 %}">1</a>
+       {% if page_obj.previous_page_number != 1 %}
+           ...
+           <a href="?{% url_replace page=page_obj.previous_page_number %}">{{ page_obj.previous_page_number }}</a>
+       {% endif %}
+   {% endif %}
+
+   {{ page_obj.number }}
+
+   {% if page_obj.has_next %}
+       <a href="?{% url_replace page=page_obj.next_page_number %}">{{ page_obj.next_page_number }}</a>
+       {% if paginator.num_pages != page_obj.next_page_number %}
+           ...
+           <a href="?{% url_replace page=page_obj.paginator.num_pages %}">{{ page_obj.paginator.num_pages }}</a>
+       {% endif %}
+   {% endif %}
+
+{% endblock content %}

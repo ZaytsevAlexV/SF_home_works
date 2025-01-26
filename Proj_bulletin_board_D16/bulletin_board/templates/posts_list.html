@@ -1,0 +1,62 @@
+<!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
+{% extends 'flatpages/default.html' %}
+<!-- Название у нас будет products -->
+{% block title %}
+Вся доска
+{% endblock title %}
+{% block content %}
+
+<br> </br>
+<h3> Объявления </h3>
+<br>
+<a href="{% url 'post_create' %}">Создать объявление</a>
+<br> </br>
+ {% if posts %}
+    <table>
+        <tr>
+            <td bgcolor="lightblue"><b>Заголовок</b></td>
+            <td bgcolor="lightblue"><b>Дата публикации</b></td>
+            <td bgcolor="lightblue"><b>Преставление статьи</b></td>
+            <td bgcolor="lightblue"><b>Категория</b></td>
+            <td bgcolor="lightblue"><b>Фото</b></td>
+            <td bgcolor="lightblue"><b>Автор</b></td>
+        </tr>
+
+        {% for post in posts %}
+        <tr class="{% cycle '--bs-blue' '--bs-white' %}">
+            <td><p><a href="{% url 'post' pk=post.id %}">{{ post.title }}</a> </p></td>
+            <td>{{ post.create_date|date:'d.m.y H:i:s' }}</td>
+            <td>{{ post.text_post|truncatechars:20 }}</td>
+            <td>{{ post.category }}</td>
+            <td><img src="{{post.media.url}}" height="70%" width=50%""></td>
+            <td>{{ post.author }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+ {% else %}
+       <h2>Обявлений нет</h2>
+ {% endif %}
+
+<div class="pagination">
+    <span class="step-links">
+        {% if page_obj.has_previous %}
+               <a href="?page=1">1</a>
+            {% if page_obj.previous_page_number != 1 %}
+                 ...
+                <a href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a>
+            {% endif %}
+        {% endif %}
+
+        {{ page_obj.number }}
+
+        {% if page_obj.has_next %}
+            <a href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a>
+            {% if paginator.num_pages != page_obj.next_page_number %}
+               ...
+              <a href="?page={{ page_obj.paginator.num_pages }}">{{ page_obj.paginator.num_pages }}</a>
+            {% endif %}
+        {% endif %}
+    </span>
+</div>
+
+{% endblock content %}

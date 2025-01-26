@@ -1,0 +1,51 @@
+<!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
+{% extends 'flatpages/default.html' %}
+
+{% load static %}
+{% block title %}
+Одно размещение
+{% endblock title %}
+
+<!-- В контенте только одно обявление -->
+{% block content %}
+<h1>Объявление</h1><br>
+<h2> Заголовок: {{ post.title }}</h2> <br>
+ Дата: {{ post.create_date|date:'d m y' }}<br>
+<i> Автор: {{ post.author}}</i> <br>
+<i> Текст: {{ post.text_post}}</i> <br>
+<br>
+<img src="{{post.media.url}}" height="40%" width=15%"">
+<br>
+<a href="{% url 'post_delete' pk=post.id %}">Удалить объявление</a>
+<br>
+
+{% if resp %}
+<br>
+<h1>Отклики</h1>
+<br>
+<td><p><a href="{% url 'create_resp' pk=post.id %}">Добавить отклик</a> </p></td>
+<br>
+    <table>
+        <tr>
+            <td bgcolor="lightblue"><b>Обявление</b></td>
+            <td bgcolor="lightblue"><b>Автор отклика</b></td>
+            <td bgcolor="lightblue"><b>Текст отклика</b></td>
+            <td bgcolor="lightblue"><b>Состояние отклика</b></td>
+            <td bgcolor="lightblue"><b>Дата статус</b></td>
+            <td bgcolor="lightblue"><b>Дата Изменения </b></td>
+        </tr>
+        {% for res in resp %}
+        <tr>
+           <td>{{ res.post.title }}</td>
+           <td>{{ res.user.username }}</td>
+           <td>{{ res.text }}</td>
+           <td>{{ res.status }}</td>
+           <td>{{ res.create_date|date:'d.m.y H:i:s' }}</td>
+           <td>{{ res.update_date|date:'d.m.y H:i:s' }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+{% else %}
+       <h2>Откликов нет</h2>
+{% endif %}
+{% endblock content %}

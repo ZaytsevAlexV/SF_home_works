@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+{% csrf_token %}
+<h1>Обявление "{{ post.title }}" удалено</h1>
+<hr>
+<a href="{% url 'post_list' %}">Далее</a>
+
+{% endblock content %}

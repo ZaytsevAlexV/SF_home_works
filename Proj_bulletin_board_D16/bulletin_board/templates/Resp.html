@@ -1,0 +1,9 @@
+{% extends 'flatpages/default.html' %}
+
+{% block content %}
+<h1> добавить отклик </h1>
+<hr>
+  <h2> отклик был добавлен </h2>
+  <p><a href="{% url 'create_resp' pk=post.pk %}"> Вернуться к посту</a> </p>
+
+{% endblock content %}

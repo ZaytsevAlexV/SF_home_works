@@ -1,0 +1,24 @@
+<!--  наследуемся от шаблона default.html, который мы создавали для flatpages -->
+{% extends 'flatpages/default.html' %}
+
+{% load static %}
+{% block title %}
+Одно размещение
+{% endblock title %}
+
+<!-- В контенте только одно обявление -->
+{% block content %}
+<h1> Заголовок: {{ post.title }}</h1>
+<h1> Дата: {{ post.create_date|date:'d m y' }}</h1>
+<i> Текст: {{ post.text_post}}</i> <br>
+<br>
+<img src="{{post.media.url}}" height="30%" width=10%"">
+<br>
+<h2> Добавление нового отклика </h2>
+<form action="{% url "create_resp" post.pk %}" method="post">
+    {{ form.as_p }}
+    {% csrf_token %}
+    <p><input type="submit" value="Добавить"> </p>
+ </form>
+<br>
+{% endblock content %}
