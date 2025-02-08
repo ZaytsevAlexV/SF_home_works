@@ -1,0 +1,54 @@
+.header {
+    background-color: #101010;
+    overflow: hidden;
+    width: 100%;
+}
+
+.navigation{
+    float: right;
+    height: 100%;
+} 
+ 
+.navigation a{
+     height: 100%;
+     display: table;
+        float: left;
+        padding: 0px 20px;
+        background-color: #101010;
+  
+}
+ 
+.navigation a li{
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    color: white;
+    
+}
+ 
+.navigation a:hover{
+    background-color: gray;
+    color: #101010;
+    
+}
+
+.logo-container h1{
+    vertical-align: middle;
+    float: left;
+    display: table-cell;
+    color:white;
+    padding: 0px 0px 00px 20px;
+}
+
+.content img{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.content p{
+    text-transform: uppercase;
+    float: right;
+}
+# p1 {
+    color: rgb(76, 76, 238);
+}
